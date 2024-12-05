@@ -34,6 +34,7 @@ public class Starter extends JFrame {
     public static void main(String[] args) {
         FileHelper.CreateDirectoryIfNotExists(MapIO.MAPS_FOLDER_PATH);
         new Starter().start(new Scanner(System.in), System.out);
+        //test on branch
     }
 
     /**
